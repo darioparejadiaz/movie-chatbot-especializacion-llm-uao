@@ -10,31 +10,34 @@ Fernando Salazar - 2242277
 
 # Ejecución en ambiente local:
 
-Crea un entorno virtual en la raiz del proyecto:
+### 1. Crea un entorno virtual en la raiz del proyecto:
 
 ```python
 python -m venv venv
 ```
+### 2. Activa el entorno viartual
 
-Activa el ambiente local (Linux/Mac):
+(Linux/Mac):
 
 ```bash
 source venv/bin/activate
 ```
 
-Activa el ambiente local (Windows):
+(Windows):
 
 ```bash
 venv\Scripts\activate
 ```
 
-Instalar dependencias:
+### 3. Instalar dependencias:
 
 ```python
 pip install -r requirements.txt
 ```
 
-Ejecutar:
+### 4. Crear un archivo .env en la raiz del proyecto y llenar su contenido con base al archivo .env_template
+
+### 5. Ejecutar:
 
 ```python
 python app/app.py
