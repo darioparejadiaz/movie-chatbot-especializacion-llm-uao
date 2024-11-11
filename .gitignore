@@ -1,0 +1,8 @@
+app/__pycache__
+app/.gradio
+notebooks
+venv
+
+.DS_Store
+.env
+requirements.min.txt
