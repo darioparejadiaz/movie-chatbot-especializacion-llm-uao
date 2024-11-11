@@ -28,6 +28,12 @@ Activa el ambiente local (Windows):
 venv\Scripts\activate
 ```
 
+Instalar dependencias:
+
+```python
+pip install -r requirements.txt
+```
+
 Ejecutar:
 
 ```python
